@@ -1,0 +1,64 @@
+body{
+    font-family: 'Lato', sans-serif;
+    color: purple;
+}
+
+a{
+    text-decoration: none;
+    display:block;
+}
+
+.principal{
+    width:1000px;
+    margin:0 auto;
+
+}
+
+.principal__titulos {
+    display: block;
+    margin: 30px auto 0 auto;
+    text-align: center;
+}
+
+.principal__imagem{
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+}
+
+li{
+    padding: 8px;
+}
+.principal__listas{
+    display: inline-block;
+    width:300px;
+    margin-bottom: 200px;   
+ }
+
+
+.btn{
+    display: block;
+    width: 300px;
+    padding: 10px;
+    margin: 15px auto;
+    border-radius:3px;
+    text-align: center;
+}
+
+.btn-roxo:hover{
+    background-color: rgb(61, 3, 63);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+
+.btn-roxo{     
+    color: white;
+    background-color: purple;
+    transition: all .7s;
+
+    }
+
+.btn-bnc{    
+    background-color: transparent;
+    color: purple;
+    border: 1px solid purple;
+}
